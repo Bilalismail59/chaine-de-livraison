@@ -1,0 +1,24 @@
+{
+  "name": "chaine-de-livraison",
+  "version": "1.0.0",
+  "description": "![Cowsay running](https://github.com/o-devops/doc/actions/workflows/cowsay.yml/badge.svg) [![Super-Linter](https://github.com/o-devops/doc/actions/workflows/linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
